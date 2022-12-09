@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "resolveJsonModule": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
+    "types": ["node"]
+  },
+  "files": ["lib/renovate.ts", "lib/config-validator.ts"],
+  "include": ["lib/**/*.d.ts"]
+}
